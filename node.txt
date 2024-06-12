@@ -1,0 +1,25 @@
+portList in network.py
+change nodeDb.read()
+change broadcastTx() in run.py
+change isInstance, broadcastTx in run.py
+change localHostPort to localHost in blockchain.py and run.py
+    webapp = Process(target=main, args=(utxos, MemPool, webport, localHost))
+
+change sync.connectToHost(localHostPort - 1, port) and sync.publishTx(TxObj)
+change addNode in syncManager and every function have the nodeDb()
+change self.addNode() in handle client
+change network envelope include portList into ipList
+turn portlist in network.py change into iplist
+change in the startSync() in the blockchain.py
+change Node in connection.py
+change startDownload() in the syncManager.py
+change most of the file syncManager.py
+change the class Node in connection.py
+change connectToHost() function in syncManager.py
+change startDownload() in syncManager.py and change startSync() in blockchain.py
+change all startSync in blockchain.py
+broadcastTx() in blockchain.py
+buildUTOX bug
+startDownload() have some problem
+bug in blockheader.py in the validateBlock() in lastBlock = BlockChainDB().lastBlock()
+utxos error
